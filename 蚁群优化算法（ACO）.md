@@ -2,7 +2,7 @@
 
 蚁群算法（ant colony optimization, ACO），又称蚂蚁算法，是一种用来在图中寻找优化路径的概率型算法。
 
-![image-20230306203640445](assets\image-20230306203640445.png)
+![image-20230306203640445](assets/image-20230306203640445.png)
 
  假设蚂蚁每经过一处所留下的信息素为一个单位，则经过36个时间单位后，所有开始一起出发的蚂蚁都经过不同路径从D点取得了食物，此时ABD的路线往返了2趟，每一处的信息素为4个单位，而 ACD的路线往返了一趟，每一处的信息素为2个单位，其比值为2：1。
 
@@ -93,13 +93,13 @@
 
 - 在t时刻蚂蚁k由城市i转移到城市j的概率![img](data:image/png;base64,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)
 
-![image-20230306203810533](assets\image-20230306203810533.png)
+![image-20230306203810533](assets/image-20230306203810533.png)
 
 ## 信息素进行更新：
 
 经过𝑛个时刻，蚂蚁可走完所有的城市，完成一次循环。每只蚂蚁所走过的路径就是一个解。此时，要根据下面的更新规则对各条路径上的信息素进行更新：
 
-![image-20230306203841809](assets\image-20230306203841809.png)
+![image-20230306203841809](assets/image-20230306203841809.png)
 
 其中𝜌∈(0，1)为挥发因子（1-ρ）为信息素残留系数，因为随着时间的推移，路径上以前留下的信息素会逐渐消失，用参数𝜌表示信息素𝜏_𝑖𝑗随时间的推移而衰减的程度。
 
@@ -111,11 +111,11 @@
 
 信息素增量 ∆𝜏_𝑖𝑗可表示为：表示信息素增量
 
-![image-20230306203858672](assets\image-20230306203858672.png)
+![image-20230306203858672](assets/image-20230306203858672.png)
 
 ∆𝜏_𝑖𝑗^𝑘表示蚂蚁k在本次循环中在城市𝑖和𝑗之间留下的信息素：
 
-![image-20230306203917380](assets\image-20230306203917380.png)
+![image-20230306203917380](assets/image-20230306203917380.png)
 
 （Q为常数，𝐿^𝑘为蚂蚁k在本次循环中所走路径的长）
 
@@ -129,7 +129,7 @@
 - 步骤6：若nc<预定的迭代次数且无退化行为（即找到的都是相同解或进化趋势相差明显），则转步骤2；
 - 步骤7：输出当前的最优解；
 
-![image-20230306204006787](assets\image-20230306204006787.png)
+![image-20230306204006787](assets/image-20230306204006787.png)
 
 - 初始化：将m只蚂蚁随机放置。设定信息素初始值。
 
@@ -161,7 +161,7 @@
 
 例给出用蚁群算法求解一个四城市的TSP问题的执行步骤，四个城市A、B、C、D之间的距离矩阵如下
 
-![image-20230306204140556](assets\image-20230306204140556.png)
+![image-20230306204140556](assets/image-20230306204140556.png)
 
 假设蚂蚁种群的规模m=3,参数a=1，b=2，r=0.5。
 
@@ -170,16 +170,16 @@
 - 步骤二：为每只蚂蚁随机选择出发城市，假设蚂蚁1选择城市A，蚂蚁2选择城市B，蚂蚁3选择城市D。
 
 - - 以蚂蚁1为例，当前城市i=A，可访问城市集合J_1(i)={B,C,D}。计算蚂蚁1选择B，C，D作为下一访问城市的概率：
-  - ![image-20230306204158513](assets\image-20230306204158513.png)
+  - ![image-20230306204158513](assets/image-20230306204158513.png)
   - 用轮盘赌法则选择下一个城市。假设产生的随机数q=random(0,1)=0.05，则蚂蚁1将会选择城市B（随机数更靠近概率p(B)）。用同样的方法为蚂蚁2和3选择下一个访问城市，假设蚂蚁2选择城市D，蚂蚁3选择城市A。
   - 当前蚂蚁1所在城市i=B，路径记忆向量R^1=(AB)【禁忌表】，可访问城市集合J_1（i）={C，D}。计算蚂蚁1选择C，D作为下一个城市的概率：
-  - ![image-20230306204238239](assets\image-20230306204238239.png)
+  - ![image-20230306204238239](assets/image-20230306204238239.png)
   - 用轮盘赌发展选择下一个城市。假设产生的随机数q=random（0，1）=0.67，则蚂蚁1将会选择城市D。用同样的方法为蚂蚁2和3选择下一个访问城市，假设蚂蚁2选择城市C，蚂蚁3选择城市C。
   - 实际上路径已构造完毕，蚂蚁1构造路径为（ABDCA）。蚂蚁2构造的路径为（BDCAB）。蚂蚁3构建的路径为（DACBD）。
 
 - 步骤三：信息素更新。
 
 - - - 计算每只蚂蚁构建的路径长度：C_1=3+4+2+1=10，C_2=4+2+1+3=10，C_3=2+1+5+4=12。更新每条边上的信息素：
-    - ![image-20230306204505471](assets\image-20230306204505471.png)
+    - ![image-20230306204505471](assets/image-20230306204505471.png)
     - 根据公式依次计算出问题空间的所有边更新后的信息素量。
 

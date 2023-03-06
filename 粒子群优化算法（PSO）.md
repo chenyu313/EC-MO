@@ -117,9 +117,9 @@
 
 - - 根据Fitness      Function（适应度函数）计算出其Fitness Value以作为判断每一个离子的好坏
 
-![image-20230306202649323](assets\image-20230306202649323.png)
+![image-20230306202649323](assets/image-20230306202649323.png)
 
-![image-20230306202658449](assets\image-20230306202658449.png)
+![image-20230306202658449](assets/image-20230306202658449.png)
 
 - Find the Pbest（个体极值）：
 
@@ -140,21 +140,21 @@
 
 **基本粒子群优化算法流程图**
 
-![image-20230306202737586](assets\image-20230306202737586.png)
+![image-20230306202737586](assets/image-20230306202737586.png)
 
 **PSO Velocity Function（速度函数）= Cognition-Only Model（个体认知） + Social-Only Model（社会行为）**
 
-![image-20230306203245162](assets\image-20230306203245162.png)
+![image-20230306203245162](assets/image-20230306203245162.png)
 
-![image-20230306203255361](assets\image-20230306203255361.png)
+![image-20230306203255361](assets/image-20230306203255361.png)
 
-![image-20230306203304917](assets\image-20230306203304917.png)
+![image-20230306203304917](assets/image-20230306203304917.png)
 
 **粒子群优化算法**
 
 - 流程图
 - 算法描述
-- ![image-20230306203329676](assets\image-20230306203329676.png)
+- ![image-20230306203329676](assets/image-20230306203329676.png)
 
 # 三、总结
 
